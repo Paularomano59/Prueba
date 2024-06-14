@@ -1,0 +1,33 @@
+.barra {
+    @include barra(flex,flex-end,none,15px,40px);
+
+    margin-top: 20px;
+    li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
+}
+
+.navbar2{
+    @include barra (flex,space-around,none,10px,10px );
+
+    li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        transition: 0.5s;
+    
+        &:hover{
+            font-size: 22px;
+            color: rgb(68, 68, 68);
+        }
+    }
+
+    border-bottom: 1px solid $bordercolors;
+    background-color: $thirdcolor;
+}
+
+
+
+

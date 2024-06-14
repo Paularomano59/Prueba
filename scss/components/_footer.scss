@@ -1,0 +1,44 @@
+footer{
+    background-color: $thirdcolor;
+    height: 300px;
+    color: rgba(194, 160, 119, 0.979);
+}
+
+.footer-tarjetas {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-end;
+font-size: 20px;
+
+    img{
+    width: 45px;
+    object-fit: cover;
+
+}
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-between;
+
+
+
+    .footer-redes{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 30px;
+    
+    
+        i{
+            cursor: pointer;
+        }
+        
+    
+    }
+
+    .footer-centro{
+        padding: 20px;
+    }
+}

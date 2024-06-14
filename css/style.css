@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: rgba(216, 179, 133, 0.356);
+  height: 300px;
+  color: rgba(194, 160, 119, 0.979);
+}
+
+.footer-tarjetas {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-end;
+  font-size: 20px;
+}
+.footer-tarjetas img {
+  width: 45px;
+  object-fit: cover;
+}
+
+.section-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.section-footer .footer-redes {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 30px;
+}
+.section-footer .footer-redes i {
+  cursor: pointer;
+}
+.section-footer .footer-centro {
+  padding: 20px;
+}
+
+.barra {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 15px;
+  gap: 40px;
+  margin-top: 20px;
+}
+.barra li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+  gap: 10px;
+  border-bottom: 1px solid rgba(121, 118, 118, 0.671);
+  background-color: rgba(216, 179, 133, 0.356);
+}
+.navbar2 li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  transition: 0.5s;
+}
+.navbar2 li a:hover {
+  font-size: 22px;
+  color: rgb(68, 68, 68);
+}
+
+body {
+  font-family: "Cormorant Garamond";
+  background-color: rgba(236, 212, 195, 0.24);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgba(121, 118, 118, 0.671);
+  height: 100px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  padding-right: 35px;
+  border-radius: 5px;
+  border: 1px solid rgba(121, 118, 118, 0.671);
+  position: relative;
+}
+.buscador input {
+  padding: 10px;
+  border-radius: 35px;
+  border: 0;
+  width: 800px;
+}
+.buscador button {
+  padding: 10px 15px;
+  position: absolute;
+  border: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buscador button:hover {
+  background-color: rgba(121, 117, 117, 0.699);
+}
+
+.container-carrusel {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  padding: 10px;
+}
+.container-carrusel .carrusel {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  background-color: rgba(216, 179, 133, 0.356);
+}
+.container-carrusel .carrusel .slider-section {
+  width: 33.3333333333%;
+  height: 100%;
+}
+.container-carrusel .carrusel .slider-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.text-section {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(121, 118, 118, 0.671);
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+
+.product {
+  width: 300px;
+  background-color: rgba(228, 228, 228, 0.288);
+  border: 1px solid rgba(121, 118, 118, 0.671);
+}
+.product img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(121, 118, 118, 0.671);
+}
+
+.product-body {
+  padding: 20px;
+  text-align: center;
+}
+.product-body p {
+  padding: 10px;
+}
+.product-body h3 {
+  color: rgba(97, 185, 157, 0.705);
+}
+.product-body h4 {
+  color: rgba(85, 81, 81, 0.568);
+}
+.product-body button {
+  border: 0;
+  outline: none;
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(204, 201, 201, 0.288);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.product-body button:hover {
+  background-color: rgba(110, 110, 110, 0.603);
+}
+
+/*# sourceMappingURL=style.css.map */

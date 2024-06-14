@@ -1,0 +1,7 @@
+@mixin barra ($display,$justify,$list,$padding,$gap) {
+    display: $display;
+    justify-content: $justify;
+    list-style: $list;
+    padding: $padding;
+    gap: $gap;
+}
